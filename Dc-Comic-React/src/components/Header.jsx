@@ -2,12 +2,12 @@ const Header = () => {
   return (
     <header className="container p-3">
       <div className="row align-items-center justify-content-between">
-        <figure className="col-6">
+        <figure className="col-4">
           <img width={50} src="./src/assets/img/dc-logo.png" alt="" />
         </figure>
 
-        <nav className="col-6">
-          <ul className="d-flex flex-col gap-4 list-unstyled">
+        <nav className="col-8">
+          <ul className="d-flex flex-col gap-3 list-unstyled">
             <li className="">
               <a
                 className="fw-bold text-dark text-uppercase text-decoration-none"

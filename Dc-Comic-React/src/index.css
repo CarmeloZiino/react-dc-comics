@@ -1,32 +1,68 @@
-
-/* DEBUG */
-
-  * {
+/* * {
     border: 1px solid red;
-  }
+  }  */
 
-/* FINE DEBUG */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul li a {
-  font-size: 0.8rem;
-  ;
+  font-size: 0.6rem;
 }
 
-#main-list{
+header ul li a {
+  padding-bottom: 5.6vh;
+}
+
+ul li a:hover {
+  border-bottom: 3px solid #0d6efd;
+}
+
+#main-list {
   font-size: 0.5rem;
 }
 
-#ndrow-main{
+#ndrow-main {
   background-size: 100vw;
+
 }
 
-footer{
-  background-image: url(./src/assets/img/footer-bg.jpg);
+footer > div {
+  background-image: url(./src/assets/img/dc-logo.png);
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
+
 }
 
 footer {
-  font-size: 0.2rem;
+  background-image: url(./src/assets/img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* .dc-logo-strabico{
+background-image: url(./src/assets/img/dc-logo.png);
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.5;
+
+height: 300px;
+width: auto;
+}  */
+
+footer ul li a {
+  font-size: 0.6rem;
+  text-decoration: none;
+}
+
+footer ul li a.text-light {
+  font-size: 1rem;
+}
+
+footer ul {
+  list-style-type: none;
 }
