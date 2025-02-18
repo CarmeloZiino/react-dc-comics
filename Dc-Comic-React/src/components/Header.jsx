@@ -1,9 +1,9 @@
 const Header = () => {
   return (
-    <header className="container p-4">
+    <header className="container p-3">
       <div className="row align-items-center justify-content-between">
         <figure className="col-6">
-          <img src="./src/assets/img/dc-logo.png" alt="" />
+          <img width={50} src="./src/assets/img/dc-logo.png" alt="" />
         </figure>
 
         <nav className="col-6">

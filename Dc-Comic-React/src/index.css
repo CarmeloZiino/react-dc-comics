@@ -10,7 +10,23 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
+ul li a {
   font-size: 0.8rem;
   ;
+}
+
+#main-list{
+  font-size: 0.5rem;
+}
+
+#ndrow-main{
+  background-size: 100vw;
+}
+
+footer{
+  background-image: url(./src/assets/img/footer-bg.jpg);
+}
+
+footer {
+  font-size: 0.2rem;
 }
