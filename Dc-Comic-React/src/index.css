@@ -1,0 +1,16 @@
+
+/* DEBUG */
+
+  * {
+    border: 1px solid red;
+  }
+
+/* FINE DEBUG */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  font-size: 0.8rem;
+  ;
+}
