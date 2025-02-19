@@ -156,7 +156,7 @@ const Footer = () => {
           <div className="col-6 dc-logo-strabico"></div>
         </div>
 
-        <div className="row p-4 bg-dark">
+        <div id="ndblock-footer" className="row p-3">
           <div className="col-6">
             <button type="button" class=" text-light btn btn-outline-primary">
               SIGN-UP NOW

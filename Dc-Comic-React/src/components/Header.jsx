@@ -1,3 +1,5 @@
+import NavBar from "./NavBar";
+
 const Header = () => {
   return (
     <header className="container p-3">
@@ -7,80 +9,9 @@ const Header = () => {
         </figure>
 
         <nav className="col-8">
-          <ul className="d-flex flex-col gap-3 list-unstyled">
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                Characters
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                Movies
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                Tv
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                Games
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                Collectibles
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                videos
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                fans
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                news
-              </a>
-            </li>
-            <li className="">
-              <a
-                className="fw-bold text-dark text-uppercase text-decoration-none"
-                href="#"
-              >
-                shop
-              </a>
-            </li>
-          </ul>
+            
+          <NavBar/>
+          
         </nav>
       </div>
     </header>

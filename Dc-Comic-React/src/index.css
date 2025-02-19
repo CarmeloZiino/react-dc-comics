@@ -28,7 +28,7 @@ ul li a:hover {
 }
 
 footer > div {
-  background-image: url(./src/assets/img/dc-logo.png);
+  background-image: url(./src/assets/img/dc-logo-bg.png);
   height: 50vh;
   background-repeat: no-repeat;
   background-size: contain;
@@ -65,4 +65,10 @@ footer ul li a.text-light {
 
 footer ul {
   list-style-type: none;
+}
+
+#ndblock-footer{
+  background-color: #212529;
+  background-size: 100vw;
+  
 }
