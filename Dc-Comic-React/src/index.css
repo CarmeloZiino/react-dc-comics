@@ -72,3 +72,14 @@ footer ul {
   background-size: 100vw;
   
 }
+
+#cardComic{
+  background-color: transparent;
+}
+
+#jumbotron {
+  background-image: url(./assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 25vh;
+  width: 100%;
+}

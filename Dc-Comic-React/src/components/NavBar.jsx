@@ -1,4 +1,4 @@
-const NavBar = () => {
+const NavBar = (props) => {
   const links = [
     { id: 1, text: "Characters", url: "#" },
     { id: 2, text: "Movies", url: "#" },
@@ -9,6 +9,8 @@ const NavBar = () => {
     { id: 7, text: "News", url: "#" },
     { id: 8, text: "Shop", url: "#" },
   ];
+
+  // const {id, text, url} = props;
 
   return (
     <ul className="d-flex flex-col gap-3 list-unstyled">
